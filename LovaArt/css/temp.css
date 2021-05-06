@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap');
+
+body{
+    background-color:#FFFFFF;
+    margin: auto;
+    max-width: 1280px;
+    height: 100%;
+    
+   
+}
+
+/*Logo*/
+#lova{
+font-family: 'cooper';
+font-size: 30px;
+color: #000;
+font-weight: black;
+text-decoration: none;
+
+}
+
+#art{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'cooper';
+    font-weight: black;
+    text-decoration: none;
+    text-shadow: 24px -40px 0px rgba(206,89,55,0), 3px 0px 0px #0BD5FF;
+    }
+
+
+
+h1{
+    
+    font-family: Gastromond;
+    font-weight: normal;
+    font-size: 3rem;
+    text-align: left;
+    color: #0c0d0d;
+    
+}
+h2{
+    font-family: Edita;
+    font-weight: normal;
+    font-size: 32px;
+    text-align: left;
+    color: #000;
+}
+
+h3{
+    font-family: Edita;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 23px;
+    text-align: left;
+    color: #0c0d0d;
+}
+
+a{
+    font-family: Edita;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+    margin-right: 15px;
+}
+
+a:hover{
+    color:#04C4D9;
+}
+
+p{
+    font-family: Edita;
+    font-size: 22;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/* TopNAvigation */
+
+ .top{
+    position: absolute;
+    top:0px;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 48px;
+    background-color: #F28B30;
+ }
+ 
+ .top-container{
+    
+    margin: auto;
+    width: 55%;
+    display: inline-block;
+    
+}
+#nav-right{
+    vertical-align: middle;
+}
+.navRightLink{
+    float: right;
+    margin-top: 8px;
+    }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+
+#poster{
+    display: flex;
+    padding-top: 75px;
+    width: 100%;
+    top: 48px;
+    background-color: #04C4D9;
+}
+.spacer{
+    padding-top: 60px
+}
+
+/* Top poster */
+
+.posterblock{
+    width: 80%;
+    display: inline-flex;
+    margin:0px auto;
+    justify-content: center;
+}
+#bannerImage{
+    width: 100%;
+}
+.box1{
+    width: 50%;
+}
+
+.box2{
+    width: 50%;
+    align-items: center;
+
+}
+
+.box3{
+    margin: 0 auto;
+    width:50%;
+}  
+.box4{   
+    margin: 0 auto;
+    width:50%;
+}
+
+.center{
+    text-align: center;
+}
+.pushTop20{
+    margin-top: 20%;
+}
+
+
+.spacer h1{
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.spacerTwo h2{
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.process{
+    
+    width: 80%;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+img{
+    max-width: 100%;
+    max-height:100%;
+}
+.offers{
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    background-color: #04C4D9;
+
+}
+.red{
+    background-color: #F22E52;
+}
+
+
+
+/*Promos*/
+
+.promoDiv{
+    background-color: #04C4D9;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+/*footer*/
+
+
+.footer {
+    height: 244px;
+    width: 100%;
+    background: #F28B30;
+    clear: both;
+}
+
+.footerInfo{
+    width: 80%;
+    height:100%;
+    margin:auto;
+    padding-top: 10px;
+}
+
+#promoImage{
+    width: 100%;
+    height: 100%;
+}
+
+.footerLink{
+    color: white; 
+    cursor: pointer; 
+    
+}
+.footerLink :hover{
+    color: black;
+}
+
+.footerLinkImage{
+    margin-right: 10px;
+    cursor: pointer; 
+    margin-right: 25px;
+}
+.footerLinkImage:hover{
+    filter: invert(100%);
+}
+
+
+.yellow{
+    background-color: #F2CB05;
+}
+
+.contactLink{
+    color: white; 
+    cursor: pointer; 
+    text-decoration: underline;
+}
+
+h1.contactLink:hover{
+    color: #04C4D9;
+}
+
+
+/*Contact Me Page*/
+
+/*Offer options*/
+.row {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+.column {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    width: 27%;
+    height: 500px;
+    background-color: #F0F0F2;
+    padding: 20px;
+    //border-style: solid;
+    margin: auto;
+    text-align: center;
+    
+  }
+  
+ .column h2{
+    text-align: center;
+ }
+
+ .column h3{
+    text-align: center;
+ }
+
+
+ .clickable:active{
+    
+     border:5px solid #04D9B2;
+ }
+
+/*Contact Form*/
+
+input[type=text], select, textarea {
+    font-family: Edita;
+    font-size: 28px;
+    font-style: italic;
+    color: black;
+    width: 100%; 
+    padding: 12px; 
+    background-color: #E9E9E9;
+    box-sizing: border-box; 
+    margin-top: 8px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+    border:  #959595;
+  }
+
+  ::placeholder { 
+    color: black;
+    opacity: 1; 
+  }
+
+
+
+  .centerDiv{
+    text-align: center;
+    margin: auto;
+  }
+
+  #submitButton{
+    font-family: Edita;
+    font-weight: bold;
+    font-size: 60px;
+    background-color: #FFFFFF;
+    color: #707070;
+    padding: 4px 10px 0px 10px;
+    border: 3px solid #959595;
+    border-radius: 12px;
+    cursor: pointer;
+   
+  }
+
+  #submitButton:hover{
+    background-color: #dadada;
+    color: rgb(4, 158, 4);
+    border: 3px solid rgb(4, 158, 4);;
+    box-sizing: border-box;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    //background-color: #f2f2f2; 
+    padding: 20px;
+   
+  }
+
+    #subject{
+    
+    background-color: white;
+    border: 1px solid black;
+    }
+
+
+    /*About Page Start*/
+    .aboutBox{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .aboutImage{
+        width: 50%;
+    }
+    .aboutImage h3{
+    text-align: center;
+}
+
+    .aboutText{
+        width: 50%;
+        margin-left: 10px;
+    }
+    
+    #gifAbout{
+    height: 80%;
+    float: right;
+    margin-top: 8px;
+        
+    }
+
+    /*About Ends Start*/
+
+
+    /* Thank you */
+    .divFlex{
+        display: flex;
+    }
+    .thanksText{
+        text-align: center;
+        color: #000;
+    }
+
+
+/* Media */
+@media only screen and (max-width: 1500px) {
+    .top-container {
+        width: 80%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 850px) {
+   
+
+     .top-container {
+            width: 80%;
+    }
+    
+
+    h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 1.2rem;
+    }
+
+    li {
+        display: inline;
+        margin-right: auto;
+      }
+    
+   
+    .posterblock{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin:0px auto;
+        justify-content: center;
+    }
+    
+    .process {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .box1{
+        margin:0px auto;
+        width:100%;
+        
+    }
+    .box2{
+        margin:0px auto;
+        width:100%;
+        order: 1;
+        
+    }
+
+    .box3{
+        margin:0px auto;
+        width:100%;
+        
+    }  
+    .box4{
+        margin:0px auto;
+        width:100%;
+    }
+    .order1{
+        order: 1
+    }
+    
+    .order2{
+        order:2
+    }
+    
+    .order3{
+        order: 3
+    }
+
+    .order4{
+        order: 4
+    }
+    
+    .order5{
+        order: 5
+    }
+    
+    .order6{
+        order: 6
+    }
+
+    .mediaHide850{
+        display: none;
+    }
+
+    .alignCenter850{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer{
+        height: 180px;
+    }
+    .footerLink {
+        margin: auto;
+        display: flex;
+        height: 25%;
+        width: 25%;
+    }
+
+
+    .footerLinkImage{
+        margin: auto;  
+        max-width: 25px;
+        max-height: auto;
+    }
+
+    #gifAbout{
+        display: none;
+    }
+
+ 
+
+ 
+    /*Contact form media queries*/
+
+    .row{
+        justify-content: space-evenly;
+    }
+
+    .column{
+    height: 300px;
+    width: 33%;
+    border: 1px solid black;
+    min-width: none;
+    }
+
+    .three{
+        margin-top: 10px;
+    }
+
+} 
+/*End of media 850*/
+
+
+
+
+
+
+
+@media only screen and (max-width: 540px) {
+
+
+    /* Global and Main Page*/
+
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    h3{
+        font-size:1rem;
+    }
+    a{
+        font-size: 12px;
+    }
+
+    p {
+
+        font-size: 14px;
+    }
+
+    #lova{
+        font-family: 'cooper';
+        font-size: 15px;
+        color: #000;
+        font-weight: black;
+        text-decoration: none;
+        
+        }
+        
+    #art{
+            font-size: 15px;
+            color: #fff;
+            font-family: 'cooper';
+            font-weight: black;
+            text-decoration: none;
+            text-shadow: 24px -40px 0px rgba(206,89,55,0), 3px 0px 0px #0BD5FF;
+    }
+
+    .navRightLink {
+        margin-top: 4px;
+    }
+
+    .spacer{
+        padding-top: 20px
+    }
+
+    .top{
+        height: 24px;
+    }
+    #poster{
+        padding-top: 38px;
+    }
+
+    .footer{
+        height: 122px;
+    }
+
+    .footerLink {
+        margin: auto;
+        display: flex;
+        height: 25%;
+        width: 25%;
+    }
+
+    .footerLinkImage{
+        margin: auto;  
+        max-width: 25px;
+        max-height: auto;
+    }
+    #gifAbout {
+        height: 10%;
+        width: 19%;
+        float: right;
+        margin-top: 8px;
+    }
+
+    .column {
+        float: left;
+        display: flex;
+        flex-direction: column;
+        min-width: 200px;
+        width: 27%;
+        height: 500px;
+        background-color: #F0F0F2;
+        padding: 10px;
+        border-style: solid;
+        margin: auto;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    input[type=text], select, textarea {
+        font-size: 14px;
+    }
+
+    #submitButton {
+        font-family: Edita;
+        font-weight: bold;
+        font-size: 40px;
+        background-color: #FFFFFF;
+        color: #707070;
+        padding: 4px 10px 0px 10px;
+        border: 3px solid #959595;
+        border-radius: 8px;
+        cursor: pointer;
+        
+        
+    }
+
+
+    /*Contact form media queries*/
+
+    .row{
+        justify-content: space-evenly;
+    }
+
+    .column{
+    height: 300px;
+    width: 33%;
+    border: 1px solid black;
+    min-width: none;
+    }
+
+    .three{
+        margin-top: 10px;
+    }
+
+
+}
+
+
+    
