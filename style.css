@@ -376,7 +376,7 @@ footer{
     width: auto;
     height: 100vh;
     
-    background-image: url("images/ContactBanner.png"); 
+    background-image: url("images/contactbanner.png"); 
     background-repeat: no-repeat;
     background-size:cover;
     /*background-attachment: fixed;*/
@@ -478,7 +478,7 @@ input[type=text], select, textarea {
   width: 100%;
   height: 80vh;
   background: #D0E9F2;
-  background-image: url("images/BackgroundPosterImage.png");
+  background-image: url("images/backgroundposterImage.png");
   background-size: cover;
 }
 
