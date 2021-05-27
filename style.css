@@ -190,7 +190,7 @@ footer{
     width: 100%;
     height: 80vh;
     background: black;
-    background-image: url("images/ReadyPoster.png");
+    background-image: url("images/readyPoster.png");
     background-repeat: no-repeat;
     /*background-attachment: fixed;*/
     background-position: center;
