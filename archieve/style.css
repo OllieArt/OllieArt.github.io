@@ -101,7 +101,7 @@ footer{
 
 .footerLink{
     color:white;
-    font-size: 0.8em;
+    size: 0.8em;
     text-decoration: underline;
 }
 
@@ -282,7 +282,7 @@ footer{
 
   .flex-items50 img{
     object-fit: contain;
-    
+    size: 50%;
     align-content: center;
   }
 
@@ -423,7 +423,7 @@ input[type=text], select, textarea {
     border: 1px solid #ccc; 
     border-radius: 4px; 
     box-sizing: border-box; 
-    margin: 6px auto 16px auto; 
+    margin: 6px, auto, 16px, auto; 
     
  
   }
@@ -434,7 +434,7 @@ input[type=text], select, textarea {
     border: 1px solid #ccc; 
     border-radius: 4px; 
     box-sizing: border-box; 
-    margin: 6px auto 16px auto; 
+    margin: 6px, auto, 16px, auto; 
     
  
   }
